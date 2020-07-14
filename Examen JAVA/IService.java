@@ -9,7 +9,7 @@ public class IService {
         private int NbreJour=0;
         private int NbreService=0;
     
-        public marche(){
+        public IService(){
             tabEmb= new Embauche[taille];
             tabService= new Service[taille];
             tabJour= new Journalier[taille];
